@@ -6,3 +6,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}

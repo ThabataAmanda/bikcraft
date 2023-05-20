@@ -1,0 +1,27 @@
+:root {
+    --font-fam1: 'Poppins', sans-serif;
+    --font-fam2: 'Roboto', sans-serif;
+
+    --title1-size: 4rem;
+    --title1-size-reponsive: 3rem;
+    --title1-size-reponsive2: 2rem;
+
+    --m-size: 1.5rem;
+    --s-size: 1.125rem;
+}
+
+.title-1 {
+    font-size: var(--title1-size);
+    font-family: var(--font-fam1);
+    color: var(--absolute-w);
+    line-height: 72px;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: var(--m-size);
+    font-family: var(--font-fam2);
+    color: var(--gray-5);
+    line-height: 36px;
+    font-weight: 400;
+}
