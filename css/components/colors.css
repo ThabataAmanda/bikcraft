@@ -1,34 +1,35 @@
 :root {
-    --absolute-w: #fff;
-    --absolute-black: #000;
+	--absolute-w: #fff;
+	--absolute-black: #000;
 
-    --black-2: #111111;
+	--black-2: #111111;
 
-    --gray-10: #2e2e2e;
-    --gray-9: #404040;
-    --gray-8: #595959;
-    --gray-7: #717171;
-    --gray-6: #9c9c9c;
-    --gray-5: #b2b2b2;
-    --gray-4:  #ccc;
-    --gray-3:  #dede;
-    --gray-2:  #ede;
-    --gray-1:  #f7f7f7;
+	--color-11: #121212;
+	--color-10: #2e2e2e;
+	--color-9: #404040;
+	--color-8: #595959;
+	--color-7: #717171;
+	--color-6: #9c9c9c;
+	--color-5: #b2b2b2;
+	--color-4: #ccc;
+	--color-3: #dede;
+	--color-2: #ede;
+	--color-1: #f7f7f7;
 
-    --gradient: linear-gradient(#ffbf00, #f2a50c);
-    --p1: #ffbb00;
-    --p2: #e4a30b;
-    --p3: #a66f00;
-    --p4: #664400;
-    --p5: #332200;
+	--gradient: linear-gradient(#ffbf00, #f2a50c);
+	--p1: #ffbb00;
+	--p2: #e4a30b;
+	--p3: #a66f00;
+	--p4: #664400;
+	--p5: #332200;
 
 
 }
 
 .wh {
-    color: var(--absolute-w);
+	color: var(--absolute-w);
 }
 
 .bl {
-    color: var(--absolute-black);
+	color: var(--absolute-black);
 }

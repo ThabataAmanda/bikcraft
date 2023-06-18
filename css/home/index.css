@@ -4,15 +4,13 @@
 }
 
 .main-content__container {
-  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  padding: 0 20px;
-  margin: 0 auto;
 }
 
 .main-content__container img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -24,10 +22,15 @@
 
 .main-content__container h1 {
   margin-bottom: 2rem;
+  color: var(--absolute-w);
 }
 
 .main-content__container p {
   margin-bottom: 1.375rem;
+}
+
+.paragraph {
+  color: var(--color-5);
 }
 
 @media (max-width:1200px) {

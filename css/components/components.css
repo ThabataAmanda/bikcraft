@@ -1,28 +1,55 @@
 .dot-color {
-    color: var(--p1);
+  color: var(--p1);
+}
+
+.link {
+  display: inline-block;
+  color: var(--p1);
+  font: 500 1.5rem/1.5 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--absolute-w);
 }
 
 .button {
-    background: var(--gradient);
-    font-family: var(--font-fam1);
-    font-size: var(--s-size);
-    font-weight: 600;
-    color: var(--p5);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    padding: 16px 32px;
-    border-radius: 5px;
-    text-transform: uppercase;
+  background: var(--gradient);
+  font-family: var(--font-fam1);
+  font-size: var(--font-m);
+  font-weight: 600;
+  color: var(--p5);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .button:hover {
-    background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width:800px) {
-    .button {
-        padding: 12px 16px;
-        font-size: 1rem;
-    }
+  .button {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
 
 }
