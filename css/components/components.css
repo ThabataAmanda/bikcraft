@@ -32,10 +32,21 @@
   padding: 16px 32px;
   border-radius: 5px;
   text-transform: uppercase;
+  max-width: max-content;
 }
 
 .button:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.button-second {
+  background: var(--color-10);
+  color: var(--color-2);
+  max-width: max-content;
+}
+
+.button-second:hover {
+  background: var(--color-9);
 }
 
 .container {
@@ -51,5 +62,4 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
-
 }

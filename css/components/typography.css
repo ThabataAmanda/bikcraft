@@ -1,6 +1,7 @@
 :root {
 	--font-fam1: 'Poppins', sans-serif;
 	--font-fam2: 'Roboto', sans-serif;
+	--font-fam3: 'Merriweather', serif;
 
 	--title1-size-reponsive: 3rem;
 	--title1-size-reponsive2: 2rem;
@@ -16,90 +17,95 @@
 .title-1 {
 	font-size: var(--font-xxl);
 	font-family: var(--font-fam1);
-	line-height: 72px;
+	line-height: 1.125;
 	font-weight: 600;
 }
 
 .font-1-xl {
 	font-family: var(--font-fam1);
 	font-size: var(--font-xl);
-	line-height: 36px;
-	font-weight: 400;
+	line-height: 1.25;
+	font-weight: 600;
 }
 
 .font-1-l {
 	font-size: var(--font-l);
 	font-family: var(--font-fam1);
-	line-height: 36px;
+	line-height: 1.5;
 	font-weight: 400;
 }
 
 .font-1-m {
 	font-family: var(--font-fam1);
 	font-size: var(--font-m);
-	line-height: 24px;
+	line-height: 1.35;
 	font-weight: 400;
 }
 
 .font-1-mb {
 	font-family: var(--font-fam1);
 	font-size: var(--font-m);
-	line-height: 24px;
+	line-height: 1.35;
 	font-weight: 600;
 }
 
 .font-1-s {
 	font-family: var(--font-fam1);
 	font-size: var(--font-s);
-	line-height: 24px;
+	line-height: 1.5;
 	font-weight: 400;
 }
 
 .font-1-xs {
 	font-family: var(--font-fam1);
 	font-size: var(--font-xs);
-	line-height: 24px;
+	line-height: 1.35;
 	font-weight: 400;
 }
 
 .font-2-l {
 	font-size: var(--font-l);
 	font-family: var(--font-fam2);
-	line-height: 36px;
+	line-height: 1.5;
 	font-weight: 400;
 }
 
 .font-2-lb {
 	font-size: var(--font-l);
 	font-family: var(--font-fam2);
-	line-height: 36px;
+	line-height: 1.5;
 	font-weight: 600;
 }
 
 .font-2-m {
 	font-family: var(--font-fam2);
 	font-size: var(--font-m);
-	line-height: 24px;
+	line-height: 1.35;
 	font-weight: 400;
-}
-
-.font-2-mb {
-	font-family: var(--font-fam2);
-	font-size: var(--font-m);
-	line-height: 24px;
-	font-weight: 600;
 }
 
 .font-2-s {
 	font-family: var(--font-fam2);
 	font-size: var(--font-s);
-	line-height: 24px;
+	line-height: 1.5;
 	font-weight: 400;
 }
 
 .font-2-xs {
 	font-family: var(--font-fam2);
 	font-size: var(--font-xs);
-	line-height: 24px;
+	line-height: 1.43;
 	font-weight: 400;
 }
+
+@media (max-width: 800px) {
+	.title-1 {
+	  font-size: 2rem;
+	}
+	
+	.font-1-xl,
+	.font-2-xl {
+	  font-size: 1.5rem;
+	}
+  }
+  
