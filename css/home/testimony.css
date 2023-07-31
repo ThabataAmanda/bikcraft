@@ -55,9 +55,9 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
-.testimony-content {
-padding: 40px 20px;
-justify-self: center;
-}
+
+    .testimony-content {
+        padding: 40px 20px;
+        justify-self: center;
+    }
 }

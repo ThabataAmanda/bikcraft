@@ -7,7 +7,7 @@
 }
 
 .technology_content .title-1 {
-	color: var(--absolute-w);
+	color: var(--color02);
 	margin-bottom: 32px;
 }
 
@@ -21,7 +21,7 @@
 
 .container-technology {
 	background-color: var(--color-11);
-	box-shadow: inset 0 80px var(--absolute-w), inset 0 -80px var(--absolute-w);
+	box-shadow: inset 0 80px var(--color02), inset 0 -80px var(--color02);
 }
 
 .container-technology-benefits {
@@ -30,7 +30,7 @@
 }
 
 .container-benefits h3 {
-	color: var(--absolute-w);
+	color: var(--color02);
 	margin-bottom: 8px;
 	width: max-content;
 }

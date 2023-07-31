@@ -1,8 +1,6 @@
 :root {
-	--absolute-w: #fff;
-	--absolute-black: #000;
-
-	--black-2: #111111;
+	--color01: #000;
+	--color02: #fff;
 
 	--color-11: #121212;
 	--color-10: #2e2e2e;
@@ -10,11 +8,12 @@
 	--color-8: #595959;
 	--color-7: #717171;
 	--color-6: #9c9c9c;
-	--color-5: #b2b2b2;
+	--color-5: #b3b3b3;
 	--color-4: #ccc;
 	--color-3: #dede;
 	--color-2: #ede;
 	--color-1: #f7f7f7;
+	--color-0: #111111;
 
 	--gradient: linear-gradient(#ffbf00, #f2a50c);
 	--p1: #ffbb00;
@@ -27,9 +26,9 @@
 }
 
 .wh {
-	color: var(--absolute-w);
+	color: var(--color02);
 }
 
 .bl {
-	color: var(--absolute-black);
+	color: var(--color01);
 }

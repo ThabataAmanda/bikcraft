@@ -1,5 +1,6 @@
 .dot-color {
   color: var(--p1);
+  font-family: var(--font-fam1);
 }
 
 .link {
@@ -18,7 +19,7 @@
 }
 
 .link:hover {
-  color: var(--absolute-w);
+  color: var(--color02);
 }
 
 .button {
@@ -49,6 +50,25 @@
   background: var(--color-9);
 }
 
+.button.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icons/seta.svg);
+  transition: transform 0.2s;
+}
+
+.button.arrow:hover::after {
+  transform: translateX(4px);
+}
+
 .container {
   max-width: 1200px;
   padding-left: 20px;
@@ -57,7 +77,32 @@
   margin-right: auto;
 }
 
+.title-bg {
+  padding: 60px 0;
+  background-color: var(--color-11);
+}
+
+.title-p {
+  margin-bottom: 4px;
+  color: var(--color-5);
+  text-transform: uppercase;
+}
+
+.title-bg .title-1 {
+  color: var(--color02);
+}
+
 @media (max-width:800px) {
+  .title-bg {
+    padding: 40px 0;
+  }
+
+  .title-p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+
   .button {
     padding: 12px 16px;
     font-size: 1rem;

@@ -1,6 +1,6 @@
 .main-content {
-  background-color: var(--absolute-black);
-  box-shadow: inset 0 -120px var(--absolute-w);
+  background-color: var(--color01);
+  box-shadow: inset 0 -120px var(--color02);
 }
 
 .main-content__container {
@@ -22,7 +22,7 @@
 
 .main-content__container h1 {
   margin-bottom: 2rem;
-  color: var(--absolute-w);
+  color: var(--color02);
 }
 
 .main-content__container p {
@@ -41,9 +41,9 @@
 
 @media (max-width:800px) {
   .main-content {
-    background-color: var(--black-2);
+    background-color: var(--color-0);
     padding-top: 2.5rem;
-    box-shadow: inset 0 -60px var(--absolute-w);
+    box-shadow: inset 0 -60px var(--color02);
   }
 
   .main-content__container {
