@@ -2,7 +2,8 @@
  Bikcraft
 </h1>
 <p> Código e protótipo desenvolvido durante os cursos : UI Design para Iniciantes & HTML & CSS para iniciantes da origamid. 🐯 </p>
-<!-- ![capa clock](https://user-images.githubusercontent.com/63726379/224445316-f3d530a3-01fc-4daa-ab65-e6245846a5da.png) -->
+
+![bik](https://github.com/ThabataAmanda/bikcraft/assets/63726379/9d4888f0-b0b7-49e5-ba8b-78cf3d13f269)
 
 <br>
 
@@ -13,5 +14,5 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 🚧 Projeto:
-Link do Projeto: 
+Link do Projeto:<a href="https://thabataamanda.github.io/bikcraft/" target="_blank">Clique aqui </a>
 
