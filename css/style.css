@@ -8,6 +8,7 @@
   @import "./components/colors.css";
   @import "./components/typography.css";
   @import "./components/components.css";
+  @import "./components/form.css";
 
   @import "./home/index.css";
   @import "./home/technology.css";
@@ -17,8 +18,16 @@
   @import "./bicycles/bicycles-list.css";
   @import "./bicycles/bicycles.css";
 
+  @import "./bicycle/bicycle.css";
+  @import "./bicycle/insurances.css";
+
   @import "./insurance/insurance.css";
   @import "./insurance/benefits.css";
   @import "./insurance/questions.css";
+
+  @import "./contact/contact.css";
+  @import "./contact/stores.css";
+
+  @import "./budget/budget.css";
 
   @import "./terms/terms.css";

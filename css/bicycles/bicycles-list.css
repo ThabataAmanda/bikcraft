@@ -18,6 +18,10 @@
 	overflow-x: auto;
 }
 
+#bicycle-page .container-bicycles__list {
+	padding: 0 0 20px 0;
+}
+
 .container-bicycles__list li {
 	min-width: 280px;
 }
