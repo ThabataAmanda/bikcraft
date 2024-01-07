@@ -34,7 +34,7 @@
 	background-color: var(--color02);
 }
 
-.header-bg__menu a:hover:after {
+.header-bg__menu a:hover::after, .header-bg__menu a.active::after {
 	width: 100%;
 	transition: 0.4s;
 }

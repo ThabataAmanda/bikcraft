@@ -20,6 +20,7 @@
 .bicycle-image img {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 
 .bicycle-image img:first-child {
