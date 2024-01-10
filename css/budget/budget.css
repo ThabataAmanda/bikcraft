@@ -76,7 +76,7 @@
 
 .budget-info {
   border-radius: 0 5px 5px 0;
-  background-color: var(--color02) url("../../img/decorations/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background-color: var(--color02);
 }
 
 .budget-content {

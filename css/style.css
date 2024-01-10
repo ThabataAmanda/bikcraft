@@ -10,6 +10,7 @@
   @import "./components/components.css";
   @import "./components/form.css";
   @import "./components/animation.css";
+  @import "./components/message.css";
 
   @import "./home/index.css";
   @import "./home/technology.css";
